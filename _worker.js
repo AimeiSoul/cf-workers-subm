@@ -176,7 +176,7 @@ async function saveConfig(env, config) {
 }
 
 function isNode(url) {
-    return /^(vmess|vless|trojan|ss|ssr|hy2|hysteria2|tuic):\/\//i.test(url)
+    return /^(vmess|vless|trojan|ss|ssr|hy2|hysteria2|tuic|anytls):\/\//i.test(url)
 }
 
 function renameNode(node, name) {
